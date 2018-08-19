@@ -1,0 +1,47 @@
+{
+    "basic":{
+
+      "name":"Rama",
+      "role":"mean-stack",
+      "mobile":"+91 9898989898",
+      "email":"ramadevikotaru01@gmail.com"
+  },
+  "career":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+  },
+  "education":[
+    {
+      "degree":"B.Tech(Computer science & engineering)",
+      "institute":"vignan Nirula",
+      "data":["2016-20","79%"]
+    },
+    {
+      "degree":"diploma(CME)",
+      "institute":"Universal",
+      "data":["2014-17","80%"]
+    },
+    {
+      "degree":"ssc",
+      "institute":"siddhartha public school",
+      "data":["14","90%"]
+    }
+  ],
+  "skills":[
+       {
+         "title":"programming languages",
+         "content":["python","c","java","R","c++"]
+       },
+       {
+         "title":"Data Bases",
+         "content":["sql","oracle","mysql"]
+       },
+       {
+         "title":"web technologies",
+         "content":["HTML","XML","javascript"]
+       },
+       {
+         "title":"operating system",
+         "content":["windows","Linux","unix"]
+       }
+  ]
+}

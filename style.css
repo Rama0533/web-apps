@@ -1,0 +1,131 @@
+table{
+  width:100;
+  border-collapse:collapse;
+  }
+  tr:nth-child(even){
+    background:#ddd;
+    }
+    td,
+    th{
+      padding:1%;
+      }
+      .skDiv{
+        width:100;
+        border-left:3px solid #ddd;
+        padding:1%;
+        margin:2%;
+      }
+      span{
+        background:#0E404dBA;
+        color:#fff;
+        border:1px solid #082D6E;
+        box-shadow: 3px 3px 3px #ddd;
+        margin:1%;
+        padding:1%;
+        border-radius:5px;
+      }
+      .parent{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.child1{
+  width:30%;
+  border:1px solid #111;
+  padding:1%;
+  margin:1%;
+  background:yellow;
+}
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:200px;
+  height:200px;
+}
+h2{
+  text-align: center;
+   color:#AD4F3B;
+   background:black;
+ }
+
+.child2{
+  width:70%;
+  border:1px solid #111;
+  padding:1%;
+  margin:1%;
+}
+a{
+  text-decoration:none;
+  font-size: 26px;
+}
+/*small screen*/
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .child1{
+    width:100%;
+    border:1px solid #111;
+    padding:1%;
+    margin:1%;
+    background:yellow;
+  }
+    .child2{
+      width:100%;
+      border:1px solid #111;
+      padding:1%;
+      margin:1%;
+      background:green;
+    }
+}
+/*@media query {
+
+}dium screen*/
+@media only screen and (min-width:481px) and (max-width:768px){  .parent{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .child1{
+    width:100%;
+    border:1px solid #111;
+    padding:1%;
+    margin:1%;
+    background:lightgreen;
+  }
+  .child2{
+    width:100%;
+    border:1px solid #111;
+    padding:1%;
+    margin:1%;
+    background:blue;
+  }
+}
+/*large screen*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .parent{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .child1{
+    width:100%;
+    border:1px solid #111;
+    padding:1%;
+    margin:1%;
+    background:pink;
+  }
+  .child2{
+    width:100%;
+    border:1px solid #111;
+    padding:1%;
+    margin:1%;
+    background:brown;
+  }
+}
+*{
+  font-size:25px;
+}
